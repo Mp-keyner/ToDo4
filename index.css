@@ -4,7 +4,6 @@
     font-family: monospace;
 }
 
-/* Estilos base */
 body {
     margin: 0;
     padding: 0;
@@ -142,10 +141,13 @@ a {
     text-decoration: none;
 }
 
-/* Estilos responsivos */
+.conta{
+    display: flex;
+    gap: 1pc;
+    flex-direction: column;
+}
 @media screen and (max-width: 768px) {
     .navbar {
-        /* flex-direction: column; */
         align-items: flex-start;
         justify-content: space-between;
         align-items: center;
@@ -157,7 +159,6 @@ a {
 
     .menu ul {
         display: flex;
-        /* flex-direction: column; */
         column-gap: 1pc;
     }
 
@@ -167,7 +168,6 @@ a {
     }
 
     .container {
-        /* grid-template-columns: repeat(1, 1fr); */
         display: flex;
         flex-direction: column;
         align-items: center;
